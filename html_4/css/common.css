@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+* {margin:0; box-sizing:border-box;}
+ul,ol,li {list-style:none; margin:0; padding:0;}
+a {text-decoration:none;}
+#wrap {width:100%; height:100%;}
+body {font-family:"Noto Sans KR", "NanumGothic", "Nanum Gothic", "Malgun Gothic", "Apple SD Gothic Neo", dotum, sans-serif; color: #111; letter-spacing: -1px;}
+a {text-decoration: none; color:#111;}
+
+
+button {display:none;}
+
+
+
+
+/*header*/
+
+header {width:100%; height:175px; margin:0 auto; display:flex; flex-flow:column; align-items:center;}
+
+/*header top_bar*/
+header #top_bar {width:100%; height:30px; background: #f4f6f9; border-bottom: 1px solid #e9edf3; margin:0 auto; display:flex; justify-content:space-around; }
+header #top_bar #top_bar_box {width:1000px; height:30px; display:flex; justify-content:space-between; }
+
+header #top_bar_box .home {float:left; height:30px;}
+header #top_bar_box .home li {float:left; padding:9px 7px; width:60px; border-left:1px solid #ddd; text-align:center; line-height:10px;}
+header #top_bar_box .home li:last-child {border-right:1px solid #ddd; }
+header #top_bar_box .home li:hover {background:#e9edf3; transition:all 0.5s;}
+header #top_bar_box .home li a {font-weight: 300; font-size: 11px; color: #666;}
+
+
+
+header #top_bar_box .login {height:30px; position:relative;}
+header #top_bar_box .login li {float:left; padding:3px 8px;}
+header #top_bar_box .login li a:hover {border-bottom:1px solid #ef544d; color:#ef544d;}
+header #top_bar_box .login li a {font-weight: 300; font-size: 11px; color: #666;}
+
+header #top_bar_box .login_sub {position:absolute; top:30px; left:150px; width:100px; height:125px; border:1px solid #666; background:#fff; padding:5px; z-index:2; display: none;}
+
+
+
+/*header logo_search*/
+
+header #box {width:1000px; height:100px; margin:0 auto; display:flex; flex-flow:row wrap; justify-content:space-between; align-items:center;}
+
+header .logo {width:190px; height:50px; background-position:center; background-size:cover;}
+
+header #search {width:430px; height:40px; position:relative;}
+header #search input {width:430px; height:40px; border:none; background:transparent; border-bottom: 2px solid #ef544d;}
+header #search i {font-size:25px; color:#ef544d; cursor:pointer; transition:all 0.3s ease-in-out; position:absolute; top:5px; right:5px;}
+header #search i:hover {color:red;}
+
+
+/*header nav*/
+
+header nav {width:100%; height:45px; background-color:#ef544d; margin:0 auto; font-weight:bold; color:#111; font-size:14px; font-family:"맑은 고딕", "Malgun Gothic", "Dotum", sans-serif; border-top:2px solid #111;}
+header #nav_box {width:1000px; height:43px;  margin:0 auto; display:flex; align-items:center; justify-content: space-between;}
+
+header .category{width:150px; height:44px; background:rgba(0,0,0,0.2); text-align: center; line-height: 300%; z-index:20;}
+header .category:hover {background:rgba(0,0,0,0.4); transition:all 1s;}
+header .category_btn {color:#fff;}
+
+header nav .nav_a {width:360px; height:30px;}
+header nav .nav_a li {padding-left:10px;}
+header nav .nav_a li a:hover {color:#fff1a2;}
+
+header nav .nav_b {width:450px; height:30px; padding-left:30px;}
+header nav .nav_b li a {color:#fff1a2;}
+header nav .nav_b li a:hover {color:yellow;}
+
+header nav ul li {float:left; padding:3px 30px 0px 0px; font-size:15px;}
+header nav ul li a {color:#fff; font-size:14px;}
+
+header .line {width:1px; height:13px; background:#cb4742;}
+
+    
+
+header nav .category .nav_menu_sub {width:430px; line-height:20px; background-color: #fff; border: 2px solid #ef544d; z-index:1; display: flex; justify-content: space-around;}
+header nav .category .nav_menu_sub h5 {text-align:left; font-size:13px; margin-bottom:5px;}
+header nav .category .nav_menu_sub li a {color:#888; font-size: 12px; font-weight:100;}
+header nav .category .nav_menu_sub li a:hover {color: #ef544d; font-weight:bold;}
+
+header nav .category .subbox1 {text-align:left; display:block; padding:20px; z-index: 5;}
+
+
+/*footer*/
+footer {width:100%; height:220px; background:#f8f8f8; border-top:1px solid #959595; display:flex; flex-direction: column; align-items:center; color:#a9a9a9;}
+footer h6 {font-size:13px; color:#111; margin-bottom:5px; font-weight:normal;}
+footer p {font-size:11px;}
+footer #top {width:1000px; height:50px;}
+footer #top li {float:left; margin:15px 10px 15px 0px; font-size:12px;}
+footer #top li a {color:#a9a9a9;}
+footer #top .none a {color:#111; font-weight:bold;}
+footer #top li:hover a {text-decoration:underline;}
+
+footer #middle {width:1000px; height:100px; display:flex; flex-flow:row wrap; justify-content:space-between;}
+footer #middle .f_box {width:320px; height:100px; float:left;}
+
+footer #bottom {width:1000px; height:30px; text-align:left; margin-top:10px;}
+footer #bottom span {color:#5a5a5a; font-weight:bold;}

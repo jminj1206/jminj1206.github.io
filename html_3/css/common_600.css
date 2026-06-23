@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@media (min-width:600px){
+
+
+/*header nav_(600햄버거)*/
+.a {display:block; cursor:pointer;}
+.b {display:none; cursor:pointer;}
+.c {display:none; cursor:pointer; position:absolute; top:100px; left:0;}
+
+
+
+
+/*header*/
+
+header {width:100%; height:100px; margin:0 auto; display:flex; justify-content:center; align-items:center; position:absolute; top:0; left:0; transition: 0.5s all ease-in-out; border-bottom:1px solid rgba(255, 255, 255, 0.1);}
+
+header #navbox {width:90%; height:45px; display:flex; justify-content:space-between; align-items:center;} 
+
+header #navbox #logo img {width:80px;}
+
+header #hide_nav {width:100%; height:auto; float:left; font-family:Play,sans-serif; z-index:3;}
+header #hide_nav ul {font-size:16px; color:white; display:flex; flex-direction: column; opacity:0.9;}
+header #hide_nav ul li {float:left;}
+header #hide_nav ul li a {text-decoration:none; color:white; background-color: rgba(0,8,27, 1); display:block; border-bottom:1px solid rgba(255, 255, 255, 0.2); text-align:center; padding:25px;}
+header #hide_nav ul li a:hover {color:#00bfe7; transition: all, 0.3s;}
+    
+
+/*header fixed*/
+
+header.fixed {position:fixed; top: 0; left: 0; background-color: rgba(0,8,27,0.8); border-bottom: 1px solid rgba(255, 255, 255, 0.1); z-index:3;}
+header.fixed #navbox ul li a {color:#fff;}
+header.fixed #navbox .c {display:none;}
+
+
+
+
+
+/*footer*/
+
+footer {width:100%; height:auto; margin:0 auto; background:#000207; display:flex; flex-direction: column; align-items: center;}
+footer h3 {font-size: 20px; font-weight: 700; margin-bottom:30px;}
+footer p {color:#777; line-height:30px; margin-bottom:20px;}
+footer a {color:#fff;}
+
+footer #footer_top {width:95%; height:100px; display:flex; justify-content: space-between; align-items: center; padding:20px;}
+footer #footer_top img {width:80px;}
+footer #footer_top .icon_box {width:260px; height:40px; text-align:right;}
+footer #footer_top .icon_box a {display: inline-block; font-size: 15px; color: #ffffff; height: 40px; width: 40px; background: rgba(255, 255, 255, 0.12); border-radius: 50%; line-height: 44px; text-align: center; margin-right: 6px;}
+footer #footer_top .icon_box a:hover {opacity:0.6; transition: 0.3s all ease-in-out;}
+
+footer #footer_box {width:90%; height:auto; display:flex; flex-flow:row wrap; justify-content:center; align-content:center; border-top:1px solid rgba(255, 255, 255, 0.15); border-bottom:1px solid rgba(255, 255, 255, 0.15); padding-top:50px;}
+
+
+footer #about {width:45%; height:300px; padding:20px;}
+footer #about img {width:20px; height: 50px; cursor: pointer;}
+
+
+footer #who_our {width:25%; height:300px; padding:20px;}
+footer #who_our ul li {padding-bottom:20px; }
+footer #who_our li a {color: #777;}
+footer #who_our li a:hover {text-decoration:underline; color:#ddd;}
+    
+footer #our_work {width:25%; height:300px; padding:20px;}
+footer #our_work ul li {padding-bottom:20px; }
+footer #our_work li a {color: #777;}
+footer #our_work li a:hover {text-decoration:underline; color:#ddd;}
+ 
+
+footer #Newsletter {width:95%; height: 300px; padding:20px;}
+footer #Newsletter form {position: relative;}
+footer #Newsletter form input {height: 50px; width: 100%; padding-left: 20px; border: 1px solid #544E5E; background: transparent; font-size: 16px; color: #adadad;}
+footer #Newsletter form input::placeholder {color: #adadad;}
+footer #Newsletter form button {font-size: 20px; color: #ffffff; border: none; height: 50px; width: 50px; background: #00bfe7; line-height: 50px; text-align: center; position: absolute; right: 0; top: 0;}
+
+
+footer #company {width:100%; height:80px; text-align:center; margin-top:30px;}    
+
+}

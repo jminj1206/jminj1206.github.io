@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@media (max-width:599px){
+#sliderbox {width:100%; height:350px; background-image:linear-gradient(180deg, rgba(17, 17, 17, 0.5), rgba(17, 17, 17, 0.5)), url("https://assets.website-files.com/59e98418f9cd070001c89d5a/59f9b3d878cc2d0001fdf4f3_ian-baldwin-49824.jpg"); background-position:center; background-size:cover; display:flex; justify-content:center; align-items:flex-end;}
+#sliderbox #sbox1 {width:90%; height:270px; justify-content:center; align-items:center; text-align:center; flex-flow: column wrap;}
+
+#sliderbox #sbox1 h1 {font-family:Oswald, sans-serif; font-size: 60px; color:white; line-height: 100px; font-weight: 700; margin-bottom:10px; }
+#sliderbox #sbox1 p {font-size:19px; color:white; font-weight: 400;}
+
+
+section {width:100%; height:auto; display:flex; align-items: center; justify-content: flex-start; flex-direction: column; background-image:url("https://assets.website-files.com/59e98418f9cd070001c89d5a/59edb594d338d60001c20b3f_pattern.jpg"); background-size:16px;}
+
+
+section #s1_top {width:100%; height:100px; position:relative; padding:20px; text-align:center; margin-top:30px;}
+section #s1_top h4 {font-family:Oswald, sans-serif; font-size:28px; color:#3d3d3d; position:relative; z-index: 2; text-transform:uppercase;}
+section #s1_top strong {font-size:4.2rem; color:#dfa25f; opacity:0.2; font-family:Oswald, sans-serif; letter-spacing:5px; position:absolute; top:-15px; left:0px; z-index:1; text-transform:uppercase;}
+
+
+section #s2 {width:100%; height:auto;  display:flex; flex-flow: row wrap; }
+
+section #left {width:100%; height:auto; display:flex; align-items: center; justify-content:flex-start; flex-direction: column; }
+section #left .content1 {width:95%; height:700px; display:flex; flex-direction: column; align-items: center; margin-bottom:20px;}
+section #left .content1 img {width:100%; }
+section .content_text {width:100%; padding:30px 0 10px;}
+section .content_text h4 { font-size:2rem; color:#4d4d4d;  margin-bottom:20px; letter-spacing:-1px;}
+section .content_text p {font-size:1rem; color:#666; line-height:1.2rem; letter-spacing:-1px; margin-bottom:30px;}
+section .pro {width:100%; height:auto; display:flex; flex-flow:row wrap; align-items:center; margin:10px 0;}
+section .pr_photo {width:70px; height:70px; background-size:cover; background-position:center; border-radius:35px; float:left; margin-right:20px;}
+section .pro p { font-size:1rem; color:#999; }
+section .pro span {font-size:1rem; font-weight:bold; color:#333;}
+section .pro span a {text-decoration:underline; font-size:1.2rem; color:black;}
+
+section #s2 .sbtn {width:100%; display:flex; flex-flow:row wrap; justify-content:space-between; align-items:center; }
+section #s2 .sbtn .bt_a {margin-top:0; border-radius:30px; border:2px solid #dfa25f; }
+section #s2 .sbtn .bt_a:hover {background: transparent; border-radius:30px; border:2px solid #dfa25f; color:#dfa25f; margin-top:0px; cursor:pointer; transition:all 0.3s ease-in-out; }
+section #s2 .sbtn p {font-size:1rem;}
+section #s2 .sbtn span {margin:0 5px; color:#666;}
+section #s2 .sbtn span i {cursor:pointer; transition:all 0.3s ease-in-out;}
+section #s2 .sbtn span i:hover {color:#dfa25f;}
+
+section .page_button {width:100%; margin-bottom:30px;}
+section .page_button ul {display:block; width:100%; display:flex; flex-flow:row wrap; justify-content:center; align-items:center;}
+section .page_button li {margin-left:5px; font-size:1rem; padding:5px 12px; border:1px solid #202b41; cursor:pointer; color:#202b41; transition:all 0.2s ease-in-out; border-radius:5px;}
+section .page_button li:hover {background:#dfa25f; color:#fff;}
+
+
+
+
+section #right {width:100%; height:auto; padding:30px 0px; display:flex; flex-flow:row wrap; align-items:center; justify-content:center; background-color:#eee;}
+section #right #search {width:95%; height:50px;  display:flex; flex-flow:row nowrap; align-items:center; justify-content:center;}
+section #search input {width:80%; height:90%; border:none; background:#fff; color:#ffc62b;}
+section #search i {width:40px; height:40px; color:#dfa25f; display:flex; justify-content:center; align-items:center; font-size:1.2rem; cursor:pointer; transition:all 0.3s ease-in-out;}
+section #search i:hover {color:#ffc62b;}
+
+
+section #popular {width:100%; height:auto; padding:40px 20px;}
+section #popular h4 {color:#424242; font-size:1.3rem;}
+section .pop_con {width:90%; height:auto; margin-top:30px; display:flex; justify-content:space-around; flex-flow:row nowrap;}
+section .pop_img {width:85px; height:85px; background-size:cover; background-position:center; margin-right:10px;}
+section .pop_text {width:280px;}
+section .pop_text strong {font-size:1.1rem; font-weight:lighter; display:block; margin-bottom:20px;}
+section .pop_text strong a {color:#555; transition:all 0.4s ease-in-out;}
+section .pop_text strong a:hover {color:#dfa25f;}
+section .pop_text p {font-size:0.8rem;}
+section .pop_text p a {margin-right:5px; color:#555; transition:all 0.4s ease-in-out;}
+section .pop_text p a:hover {color:#ddd; }
+
+section #Tag {width:100%; height:auto; padding:40px 20px;}
+section #Tag h4 {color:#424242; font-size:1.2rem;}
+section .Tag_box {width:85%; margin:0 auto; padding:20px 0;}
+section .Tag_box a {display:inline-block; padding:7px 10px; border:1px solid #bd7c34; color:#bd7c34; border-radius:10px; font-size:1rem; margin:3px; transition:all 0.4s ease-in-out;}
+section .Tag_box a:hover {background:#dfa25f; border:1px solid #dfa25f; color:#fff;}
+
+section #news {width:100%; height: auto; padding:40px 20px; background:#dfa25f;}
+section #news h4 {color:#fff; font-size:2rem; font-family:Oswald, sans-serif;  text-transform: uppercase;}
+section #news p {color:#eee; font-size:1rem; margin:30px 0 20px;}
+section #news input {width:100%; height:60px; border:1px solid rgba(255,255,255,0.4);
+background:rgba(0,0,0,0); margin:10px 0; color:#fff;}
+section #news input::-webkit-input-placeholder { color: #fff; opacity:0.7; padding:10px;}
+section #news input[type=submit] {background:#fff; color:#dfa25f; cursor:pointer;
+font-size:1.2rem; transition:all 0.2s ease-in-out;}
+section #news input[type=submit]:hover {background:#202b41;}
+
+section #archives {width:100%; height: auto; padding:20px;}
+section #archives>h4 {color:#fff; font-family:"Rajdhani", sans-serif;
+font-size:1.5rem; letter-spacing:5px;}
+
+}

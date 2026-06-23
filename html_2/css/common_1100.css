@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+@media (min-width:1100px){
+
+header {width:100%; height:70px; margin:0 auto; display:flex; justify-content:center; align-items:center; position:absolute; top:0; left:0; transition: 0.5s all ease-in-out; z-index:3;}
+header #navbox {width:1180px; height:45px; display:flex; justify-content:space-around; align-items:center; } 
+header #navbox #logo {width:200px; height:40px; font-family:Oswald, sans-serif; font-weight:bold; text-align:center; font-size:22px; color:#fff;}
+header #navbox #logo span { color:#dfa25f;}
+header #navbox nav {width:390px; height:30px; float:left; margin:0 0 0 30%;}
+header #navbox ul {font-size:15px; font-weight:bold; color:white; }
+header #navbox ul li {float:left; margin:5px 15px 0 10px;}
+header #navbox ul li a {text-decoration:none; color:white;
+display:inline; box-shadow:none; text-align:center; padding:0px;}
+header #navbox ul li a:hover {color:#dfa25f;}
+header #navbox .bt_c  {padding:12px 30px; border:none; border-radius:30px; color:white; background-color:#dfa25f; display:block;}
+header #navbox .bt_c:hover {background-color:#202b41; transition: all 0.3s ease-in-out;}
+
+header.fixed {position:fixed; top: 0; left: 0; background:#fff; border-bottom: 1px solid #e3e3e3; z-index:3; z-index:3;}
+header.fixed #navbox ul li a {color:black;}
+header.fixed #navbox #logo {color:black;}
+header.fixed #navbox .c {display:none;}
+    
+    
+    
+    
+footer {width:100%; height:600px; margin:0 auto; color:#fff; background-color: #232d41; background-image: url(https://assets.website-files.com/59e9841…/5a5a10b…_bg-pattern.jpg); background-position: 0px 0px;}
+footer h3 {font-family:Oswald, sans-serif; font-size: 20px; font-weight: 700; text-transform: uppercase; margin-bottom:30px;}
+footer #footer_box {width:1200px; height:500px; margin:0 auto; display:flex; flex-flow:row wrap; justify-content:center; align-content:center;}
+
+footer #about {width:300px; height:300px; padding:20px;}
+footer #about p {margin: 0; padding-right: 40px;}
+footer #about img {width:20px; height: 50px; cursor: pointer;}
+
+footer #services {width:250px; height:300px; padding:20px;}
+footer #services ul li {padding-bottom:15px; }
+footer #services li a {color: #fff;}
+footer #services li a:hover {text-decoration:underline;}
+
+
+footer #questions {width: 280px; height: 300px; padding:20px;}
+footer #questions img {float: left; width: 18px; height:18px;}
+footer #questions p {display: inline-block; width: 230px;}
+
+    
+    
+footer #instagram {width: 280px; height: 300px; padding:20px;}
+footer #instagram .instagram-photo{position:relative;}
+footer #instagram img {width:30%;}
+footer #instagram img:hover {opacity:0.7;}
+    
+footer #instagram .zoom-icon .small {width: 40px; height: 40px; border-width: 1px; background-size: 16px;}
+footer #instagram .zoom-icon {position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; z-index: 1; display: block; width: 60px; height: 60px; margin: auto; border: 2px solid #fff; border-radius: 50%; background-color: rgba(0, 0, 0, 0.7); background-image: url(https://assets.website-files.com/59e9841…/59f74d0…_zoom-icon.svg); background-position: 50% 50%; background-repeat: no-repeat;}
+
+
+
+footer #company {width:100%; height:100px; text-align:center; background-color:#000a3e; padding:40px; }    
+
+    
+    
+
+    
+    
+}
