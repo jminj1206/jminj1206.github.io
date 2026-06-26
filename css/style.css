@@ -386,3 +386,55 @@ header #left_menu h2 {font-size:17px; color:#fff; font-weight:normal; letter-spa
     .modal.on {
         display: block;
     }
+/* 두 번째 프로필 섹션 중앙 정렬 보정 */
+#fullpage .profile-section{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.profile-section .greeting{
+    width:1280px;
+    padding:0;
+    min-height:320px;
+}
+
+.profile-section .gene-box{
+    margin:45px auto 0;
+}
+
+/* 캐릭터 위치 재정렬 */
+.profile-section .character-wrap{
+    position:absolute;
+    top:50%;
+    right:90px;
+    bottom:auto;
+    width:350px;
+    height:360px;
+    transform:translateY(-50%);
+}
+
+.profile-section .emoji-img{
+    position:absolute;
+    right:0;
+    bottom:0;
+    width:330px;
+    margin:0;
+}
+
+/* 배지 위치 */
+.profile-section .badge-figma{
+    top:-20px;
+    left:-30px;
+}
+
+.profile-section .badge-ppt{
+    top:70px;
+    right:-45px;
+}
+
+.profile-section .badge-adobe{
+    bottom:20px;
+    left:-45px;
+}
