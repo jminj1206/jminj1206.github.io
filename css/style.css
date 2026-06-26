@@ -438,3 +438,70 @@ header #left_menu h2 {font-size:17px; color:#fff; font-weight:normal; letter-spa
     bottom:20px;
     left:-45px;
 }
+
+/* 캐릭터 위치 보정 */
+.profile-section .character-wrap{
+    position:absolute !important;
+    top:-10px !important;
+    right:80px !important;
+    width:360px !important;
+    height:360px !important;
+    transform:none !important;
+    z-index:3;
+}
+
+.profile-section .emoji-img{
+    position:absolute !important;
+    top:40px !important;
+    right:0 !important;
+    bottom:auto !important;
+    width:320px !important;
+    margin:0 !important;
+    display:block !important;
+}
+
+/* 아이콘만 둥둥 */
+.profile-section .floating-icon{
+    position:absolute !important;
+    width:56px !important;
+    height:56px !important;
+    object-fit:contain !important;
+    display:block !important;
+    border:0 !important;
+    background:none !important;
+    box-shadow:none !important;
+    animation:floatIcon 3s ease-in-out infinite;
+    z-index:5;
+}
+
+/* 아이콘 위치 */
+.profile-section .icon-figma{
+    top:20px;
+    left:10px;
+    animation-delay:0s;
+}
+
+.profile-section .icon-ppt{
+    top:80px;
+    right:-25px;
+    animation-delay:.7s;
+}
+
+.profile-section .icon-adobe{
+    bottom:45px;
+    left:0;
+    animation-delay:1.4s;
+}
+
+/* 둥둥 애니메이션 */
+@keyframes floatIcon{
+    0%{
+        transform:translateY(0);
+    }
+    50%{
+        transform:translateY(-10px);
+    }
+    100%{
+        transform:translateY(0);
+    }
+}
