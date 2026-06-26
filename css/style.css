@@ -172,7 +172,69 @@ header #left_menu h2 {font-size:17px; color:#fff; font-weight:normal; letter-spa
 .description li {font-family: 'Rubik', '나눔고딕', '돋움', Dotum, Helvetica, 'Apple SD Gothic Neo', 'sans-serif'; color:#444; display:flex;}
 .description li:nth-of-type(1) {margin-bottom: 8px;}
 
-.emoji-img {width:350px; position:absolute; bottom:5%; right:10%; display: inline-block; margin: 0 0.5rem;}
+.character-wrap{
+    position:absolute;
+    bottom:5%;
+    right:10%;
+    width:350px;
+    height:420px;
+}
+
+.emoji-img{
+    width:100%;
+    display:block;
+    position:absolute;
+    bottom:0;
+    right:0;
+    margin:0;
+}
+
+.tool-badge{
+    position:absolute;
+    display:flex;
+    align-items:center;
+    gap:8px;
+    padding:10px 14px;
+    background:#fff;
+    border:1px solid #d9dee8;
+    border-radius:14px;
+    box-shadow:0 10px 24px rgba(0,0,0,0.08);
+    font-family:'Rubik', 'Noto Sans KR', sans-serif;
+    font-size:14px;
+    font-weight:500;
+    color:#222;
+    animation: floatY 3s ease-in-out infinite;
+}
+
+.tool-badge img{
+    width:20px;
+    height:20px;
+    object-fit:contain;
+}
+
+.badge-figma{
+    top:30px;
+    left:-40px;
+    animation-delay:0s;
+}
+
+.badge-ppt{
+    top:120px;
+    right:-55px;
+    animation-delay:0.8s;
+}
+
+.badge-adobe{
+    bottom:45px;
+    left:-55px;
+    animation-delay:1.6s;
+}
+
+@keyframes floatY{
+    0%{transform:translateY(0);}
+    50%{transform:translateY(-10px);}
+    100%{transform:translateY(0);}
+}
 
 .wrap-box {padding: 50px; border-radius: 16px; background: #fff; box-shadow: 4px 6px 13px 3pxrgba(77,186,192,.2); box-sizing: border-box; overflow: hidden;}
 
