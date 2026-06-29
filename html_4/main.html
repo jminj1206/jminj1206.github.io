@@ -1,0 +1,494 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>INTERPARK BOOKSTORE</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/v4-shims.css">
+
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/main.css">
+
+<script
+src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+<script src="js/header_toggle.js"></script>
+<script src="js/nav_toggle.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/bestseller.js"></script>
+<script src="js/homerice.js"></script>
+<script src="js/novel.js"></script>
+<script src="js/content_slide.js"></script>
+<script src="js/multipage.js"></script>
+
+
+</head>
+<body>
+<div id="wrap">
+
+<header>
+<div id="top_bar">
+  <div id="top_bar_box">
+    <ul class="home">
+      <li style="background:#fff;"><a href="">홈</a></li>
+      <li><a href="sub.html">도서</a></li>
+      <li><a href="#">티켓</a></li>
+      <li><a href="#">투어</a></li>
+      <li><a href="#">아이마켓</a></li>
+    </ul>
+
+    <ul class="login">
+      <li><a href="#">로그인</a></li>
+      <li><a href="#">회원가입</a></li>
+      <li><a href="#">북카트</a></li>
+      <li class="mypage"><a href="#">마이페이지</a>
+        <ul class="login_sub">
+          <li><a href="#">마이페이지</a></li>
+          <li><a href="#">주문/배송조회</a></li>
+          <li><a href="#">찜리스트</a></li>
+          <li><a href="#">할인쿠폰 내역</a></li>
+        </ul>
+      </li>
+      <li><a href="#">북피니언</a></li>
+      <li><a href="#">고객센터</a></li>
+      <li><a href="#">모바일APP</a></li>
+    </ul>
+  </div>
+</div>
+<div id="box">
+<a href="main.html"><div class="logo" style="background-image:url('img/logo_1.jpg')">
+ </div></a>
+  <div id="search">
+    <input type="text" name="search" value="" placeholder="가을, 독서의 계절">
+    <i class="fas fa-search"></i>
+  </div>
+  <img src="img/bookevent.jpg" alt="">
+</div>
+
+<nav>
+  <div id="nav_box">
+    <div class="category">
+      <a href="#" class="category_btn">전체 카테고리</a>
+      <ul class="nav_menu_sub">
+        <div class="subbox1">
+          <h5>국내도서</h5>
+          <li><a href="#">소설</a></li>
+          <li><a href="#">장르소설</a></li>
+          <li><a href="#">예술·대중문화</a></li>
+          <li><a href="#">시·에세이</a></li>
+          <li><a href="#">자기계발</a></li>
+          <li><a href="#">경제경영</a></li>
+          <li><a href="#">역사문화</a></li>
+          <li><a href="#">자연과학</a></li>
+        </div>
+        <div class="subbox1">
+          <h5>외국도서</h5>
+          <li><a href="#">어린이</a></li>
+          <li><a href="#">문학</a></li>
+          <li><a href="#">일본도서</a></li>
+          <li><a href="#">실용·예술</a></li>
+          <li><a href="#">대학·전문서적</a></li>
+          <li><a href="#">학습교구/게임</a></li>
+          <li><a href="#">해외주문원서</a></li>
+        </div>
+        <div class="subbox1">
+          <h5>음반</h5>
+          <li><a href="#">가요</a></li>
+          <li><a href="#">팝</a></li>
+          <li><a href="#">뉴에이지</a></li>
+          <li><a href="#">락</a></li>
+          <li><a href="#">재즈</a></li>
+          <li><a href="#">O.S.T</a></li>
+          <li><a href="#">월드뮤직</a></li>
+        </div>
+      </ul>
+    </div>
+    <ul class="nav_a">
+      <li><a href="sub.html">베스트셀러</a></li>
+      <li><a href="#">미디어추천</a></li>
+      <li><a href="#">신간</a></li>
+      <li><a href="#">이벤트</a></li>
+    </ul>
+    <div class="line"></div>
+    <ul class="nav_b">
+      <li><a href="sub.html">국내</a></li>
+      <li><a href="#">외국</a></li>
+      <li><a href="#">ebook</a></li>
+      <li><a href="#">중고</a></li>
+      <li><a href="#">음반</a></li>
+      <li><a href="#">DVD</a></li>
+      <li><a href="#">북DB</a></li>
+    </ul>
+  </div>
+</nav>
+</header>
+
+<div id="slider_box">
+  <div id="slider">
+    <ul class="slide">
+      <li><img src="img/banner_1.png" alt=""></li>
+      <li><img src="img/banner_2.png" alt=""></li>
+      <li><img src="img/banner_3.png" alt=""></li>
+      <li><img src="img/banner_4.png" alt=""></li>
+      <li><img src="img/banner_5.png" alt=""></li>
+    </ul>
+
+    <!--베스트셀러 칸-->
+    <div class="sliderbox3">
+      <div class="best1">
+        <h1>베스트셀러</h1>
+      </div>
+      <!--오늘,주간 박스-->
+      <div class="best2">
+        <div class="bestbox">
+          <p>오늘</p>
+        </div>
+        <div class="bestbox">
+          <p>주간</p>
+        </div>
+      </div>
+
+      <div class="best3">
+        <div class="bestsellerbox1">
+          <div class="bestseller">
+            <span class="ranking">1</span>
+            <p>킹세종 더그레이트(한글판)</p>
+          </div>
+          <div class="bestseller">
+            <span class="ranking">2</span>
+            <p>트렌트 코리아 2021</p>
+          </div>
+          <div class="bestseller">
+            <span class="ranking">3</span>
+            <p>존리의 금융문맹 탈출</p>
+          </div>
+          <div class="bestseller">
+            <span class="ranking">4</span>
+            <p>달러구트 꿈 백화점</p>
+          </div>
+          <div class="bestseller">
+            <span class="ranking">5</span>
+            <p>나의 하루는 4시 30분에시...</p>
+          </div>
+          <div class="bestseller">
+            <span class="ranking">6</span>
+            <p>존리의 부자되기 습관(20만...<i class="fas fa-caret-up"></i></p>
+          </div>
+          <div class="bestseller">
+            <span class="ranking">7</span>
+            <p>마음챙김의 시</p>
+          </div>
+          <div class="bestseller">
+            <span class="ranking">8</span>
+            <p>어떻게 말해줘야 할까<i class="fas fa-caret-up"></i></p>
+          </div>
+          <div class="bestseller">
+            <span class="ranking">9</span>
+            <p>폴리매스</p>
+          </div>
+        </div>
+        <div class="bestsellerbox2">
+          <div class="bestseller">
+            <span class="ranking2">1</span>
+            <p>달러구트 꿈 백화점 </p>
+          </div>
+          <div class="bestseller">
+            <span class="ranking">2</span>
+            <p>킹세종 더그레이트(한글판)</p>
+          </div>
+          <div class="bestseller">
+            <span class="ranking">3</span>
+            <p>존리의 금융문맹 탈출</p>
+          </div>
+          <div class="bestseller">
+            <span class="ranking">4</span>
+            <p>돈의 속성</p>
+          </div>
+          <div class="bestseller">
+            <span class="ranking">5</span>
+            <p>폴리매스</p>
+          </div>
+          <div class="bestseller">
+            <span class="ranking">6</span>
+            <p>어떻게 말해줘야 할까</p>
+          </div>
+          <div class="bestseller">
+            <span class="ranking">7</span>
+            <p>트렌트 코리아 2021</p>
+          </div>
+          <div class="bestseller">
+            <span class="ranking">8</span>
+            <p>보건교사 안은영(특별판)<i class="fas fa-caret-up"></i></p>
+          </div>
+          <div class="bestseller">
+            <span class="ranking">9</span>
+            <p>아몬드<i class="fas fa-caret-up"></i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <!--베스트셀러 end-->
+    
+  <div class="slider_button">
+    <ul>
+      <li><a href="#">화제의 책</a></li>
+      <li><a href="#">초판본 리커버</a></li>
+      <li><a href="#">감정의 발견</a></li>
+      <li><a href="#">추천 이벤트</a></li>
+      <li><a href="#">이슈&amp;스토리</a></li>
+    </ul>
+  </div>
+</div>
+
+
+<section>
+
+  <!--section 1-->
+  <div id="s1">
+     <div class="text_box">
+       <h3>인터파크 <span>추천!</span></h3>
+     </div>
+     <div class="c_slidewrap">
+        <ul class="c_slide">
+          <li>
+            <div class="s1_book_1">
+              <div class="b_box"></div>
+              <div class="b_box"></div>
+            </div>
+          </li>
+          <li>
+            <div class="s1_book_1">
+              <div class="b_box"></div>
+              <div class="b_box"></div>
+            </div>
+          </li>
+          <li>
+            <div class="s1_book_1">
+              <div class="b_box"></div>
+              <div class="b_box"></div>
+            </div>
+          </li>
+        </ul>
+      <span class="l">
+        <i class="fas fa-angle-left"></i>
+      </span>
+      <span class="r">
+        <i class="fas fa-angle-right"></i>
+      </span>
+    </div>
+  </div>
+ <!--section 1 end-->
+
+
+  <!--section 2-->
+  <div id="s2">
+    <div class="text_box">
+       <h3>분야별 <span>추천!</span></h3>
+    </div>
+    <div id="b_list">
+      <ul id="booklist">
+  	    <li>문학/인문</li>
+        <li>요리/레시피</li>
+        <li>경제/교양</li>
+      </ul>
+      <article id="list_a">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </article>
+
+      <article id="list_b">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+      </article>
+
+     <article id="list_c">
+       <div class="box"></div>
+       <div class="box"></div>
+       <div class="box"></div>
+       <div class="box"></div>
+       <div class="box"></div>
+       <div class="box"></div>
+       <div class="box"></div>
+       <div class="box"></div>
+       <div class="box"></div>
+       <div class="box"></div>
+     </article>
+    </div>
+  </div>
+  <!--section 2 end-->
+  
+  <!--section 3-->
+  <div id="s3">
+    <a href="#"><img src="img/s3_banner_1.jpg" alt=""></a>
+    <a href="#"><img src="img/s3_banner_2.jpg" alt=""></a>
+  </div>
+  <!--section 3 end-->
+  
+  
+  <!--section 4-->
+  <div id="s4">
+    <div class="left">
+     <div class="text_box">
+       <h3>출판사 <span>초이스!</span></h3>
+     </div>
+     <div class="s1_book_1">
+        <div class="b_box"></div>
+        <div class="b_box"></div>
+     </div>
+    </div>
+    <div class="right">
+      <h6>Trend&amp;Issue</h6>
+      <img src="img/s4_right_1.jpg" alt="">
+    </div>
+  </div>
+ <!--section 4 end-->
+ 
+ <!--section 5-->
+  <div id="s5">
+    <div id="s5_box">
+     <div class="left">
+       <h3>INTERPARK <span>BOOK</span></h3>
+       <p>가수들 책 출간 전성시대,<br>우리도 이제 신인 작가</p>
+       <img src="img/s5_img_1.jpg" alt="">
+     </div>
+     <div class="right">
+       <div class="issue">
+          <img src="img/s5_img_2.jpg" alt="">
+          <div class="textbox">
+            <h4>정은경, 봉준호…타임지 선정 ‘영향력 있는 100인’의 책</h4>
+            <p>미국의 시사주간지 타임’이 2020년 세계에서 가장 영향력 있는 인물 100인을 발표했다. 매년 선정되는 리스트에 올해는 한국인으로 정은경 질병관리청장과 봉준호 감독이 이름을 올렸다. 선정 인물마다 유명인사의 소개 글이 덧붙는데 정은경 질병관리청장의 소개 글은 문재인 대통령이 작성해 화제가 됐다.이 내용은 2020년 10월 5일 발행된 (TIME 편집부/ TIME/ 2020년)지에 수록됐다. 정은경 청장을 비롯해 오늘날 이 세계를 바꾸고 있는 건 어떤 인물들일까? 세계에서 가장 영향력 있는 100인이 쓴 책 중 한국에 출간된 </p>
+         </div>
+       </div>
+       
+       <div class="issue">
+          <img src="img/s5_img_3.jpg" alt="">
+          <div class="textbox">
+            <h4>[가정/청소년MD 추천 신간] 얘들아, 한 번 더 힘내보자. 엄마도 그럴게!</h4>
+            <p>처음에는 코로나19로 인한 여파가 이렇게까지 길게 갈 것이라고는 상상도 하지 못했습니다. 하지만 이제 모두가 백신이 개발되기 전까지는 어쩔 수 없이 코로나와 함께 공존해야 한다는 사실을 받아들이기 시작한 것 같네요. 코로나19 상황으로 누구도 겪지 못했던 1학기를 보내고, 어느 해보다 우려를 갖고 2학기를 보내고 있을 우리 아이들.스스로 사유하고 주체적으로 삶을 그려나갈 수 있도록, ‘철학’하게 하세요!</p>
+         </div>
+       </div>
+       
+       <div class="issue">
+          <img src="img/s5_img_4.jpg" alt="">
+          <div class="textbox">
+            <h4>나왔을 때부터 시대에 뒤떨어졌고, 그게 매력인 SF 소설</h4>
+            <p>레이 브래드버리의 화성 연대기도 그런 고풍스러운 신화적 화성을 배경으로 한 소설이다. 언젠가 ‘레이 브래드버리는 시대에 뒤떨어졌는가?’란 제목의 기사와 마주친 적 있는데 좀 당황스럽다. 이 책은 나왔을 때부터 시대에 뒤떨어졌었고 그게 매력이었다. 오류로 판명된 옛 과학과 신화적 상상력이 브래드버리 특유의 시적 상상력과 결합되어 오래된 이야기와 같은 분위기를 풍긴 결과물이다.</p>
+         </div>
+       </div>
+
+     </div>
+    </div>
+  </div>
+ <!--section 5 end-->
+ 
+  
+
+ <!--section 6-->
+  <div id="s6">
+    <div id="left">
+     <div class="text_box">
+       <h3>HOT <span>중고도서!</span></h3>
+     </div>
+     <div class="s1_book_1">
+        <div class="b_box"></div>
+        <div class="b_box"></div>
+     </div>
+    </div>
+    <div id="right">
+      <h6>Trend&amp;Issue</h6>
+      <img src="img/s4_right_2.jpg" alt="">
+    </div>
+  </div>
+ <!--section 6 end-->
+ 
+
+  
+  <!--section 8-->
+ <div id="s8"></div>
+ 
+
+</section>
+
+  
+  <!--footer-->
+  <footer>
+    <div id="top">
+      <ul>
+         <li class="none"><a href="#">개인정보처리방침</a></li>
+         <li>|</li>
+         <li><a href="#">청소년보호정책</a></li>
+         <li>|</li>
+         <li><a href="#">이용약관</a></li>
+         <li>|</li>
+         <li><a href="#">IR</a></li>
+         <li>|</li>
+         <li><a href="#">회사소개</a></li>
+         <li>|</li>
+         <li><a href="#">채용공고</a></li>
+         <li>|</li>
+         <li><a href="#">우수고객제도</a></li>
+         <li>|</li>
+         <li><a href="#">수익분배프로그램</a></li>
+         <li>|</li>
+         <li><a href="#">신규출판사</a></li>
+         <li>|</li>
+         <li><a href="#">광고안내</a></li>
+         <li>|</li>
+         <li><a href="#">판매자매니저</a></li>
+      </ul>
+    </div>
+    <div id="middle">
+       <div class="f_box">
+         <h6>인터파크</h6>
+         <p>·서울특별시 강남구 삼성로 512 삼성동빌딩 10층(삼성동)</p>
+         <p>·대표이사 조민주</p>
+         <p>·사업자등록번호 220-81-47821 ㅣ 통신판매업신고 2015-서울강남-01050</p>
+       </div>
+       <div class="f_box">
+         <h6>고객센터</h6>
+         <p>·전화 1577-2555</p>
+         <p>·팩스 02-6924-9050</p>
+         <p>·개인정보보유기간 : 회원탈퇴시까지</p>
+         <p>·개인정보보호책임자 : 조민주 jminj9212@naver.com</p>
+       </div>
+       <div class="f_box">
+         <h6>구매안전 서비스</h6>
+         <p>·고객님은 안전거래를 위해 현금으로 5만원 이상 결제시 구매자가 보호를 받을 수 있는 구매안전 서비스를(쇼핑몰보증보험) 이용하실수 있습니다.</p>
+       </div>
+    </div>
+    <div id="bottom">
+      <p><span>인터파크도서에 등록된 중고책 오픈마켓 상품은 그 내용과 책임이 모두 판매자에게 있으며, 인터파크도서는 해당상품과 내용에 대해 책임지지 않습니다.</span><br>Copyright ⓒ INTERPARK Corporation All rights reserved.</p>
+    </div>
+      
+  </footer>
+  <!--footer end-->
+
+
+</div>
+
+
+
+</body>
+</html>
