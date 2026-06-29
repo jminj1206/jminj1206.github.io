@@ -328,9 +328,9 @@
         </div>
       </div>
       
-      <!--project 4-->
-      <div class="section">
-        <div class="graphic-design">
+	<!--project 4-->
+	<div class="section graphic-section">
+	  <div class="graphic-design">
           <div class="inner">
             <div class="gene-text aos-init aos-animate" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="1800">
               <div class="inner-text">
@@ -360,13 +360,6 @@
   </section>
 </div>
 
-  <div class="modal">
-    <div class="modal_popup">
-        <h3>모달 팝업 타이틀 입니다!</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, ut facere id ullam ea adipisci et ipsam est quidem commodi ducimus nostrum cum optio non dolor! Quam ipsum nam rem!</p>
-        <button type="button" class="close_btn">닫기</button>
-    </div>
-  </div>
   <script>
         particlesJS("particles-js", {"particles":{"number":{"value":64,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":2.5,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":25,"color":"#ffffff","opacity":0.42,"width":1},"move":{"enable":true,"speed":2.5,"direction":"none","random":true,"straight":false,"out_mode":"bounce","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"bubble"},"onclick":{"enable":false,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":100,"size":5,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
   </script>
@@ -408,52 +401,9 @@
       $('html, body').animate({scrollTop: 0}, 1500);
     });
   });
-</script>
-<!--
-<script type="text/javascript">
-  const modal = document.querySelector('.modal');
-  const modalOpen = document.querySelector('.modal_btn');
-  const modalClose = document.querySelector('.close_btn');
 
-  //열기 버튼을 눌렀을 때 모달팝업이 열림
-  modalOpen.addEventListener('click',function(){
-      //'on' class 추가
-      modal.classList.add('on');
-  });
-  //닫기 버튼을 눌렀을 때 모달팝업이 닫힘
-  modalClose.addEventListener('click',function(){
-      //'on' class 제거
-      modal.classList.remove('on');
-  });
--->
 
-	
-</script>
 
-<script>  
-// 팝업 열기 
-function openPopup(modal) {
-	document.get
-	$('.' + modal).show();
-	$(".modal_popup").show(); // 배경 어둡게
-			
-	//스크롤 막기
-	$('.wrap').on('scroll touchmove mousewheel', function(event) {
-		event.preventDefault();
-		event.stopPropagation();
-		return false;
-		});
-	}
-	
-    // 팝업 닫기
-	function closePopup(flag) {
-		$('.close_btn').hide(); //팝업을 닫기다.
-		$('.modal_popup').hide(); // 배경 어둡게 삭제
-		//스크롤 막기 해제
-		$('.wrap').off('scroll touchmove mousewheel');
-	};
-
-</script>
 <script language='JavaScript'>
   function fscreen(url) {
   fullscreen = window.open(url, "fullscreen", 'top=0,left=0,width='+(screen.availWidth-10)+',height='+(screen.availHeight-48)+',fullscreen=yes,toolbar=0,location=0,directories=0,status=0,menubar=0,resizable=0,scrolling=0');
